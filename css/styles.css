@@ -1,0 +1,75 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: verdana;
+}
+.header{
+	/*text-align: center;*/
+	font-size: 175%; /*75% more */
+	font-weight: 700;
+	margin: 50px;
+}
+.section{
+	padding: 10px; /*to compensate margin inside column*/
+}
+
+.column{
+	border: 1px solid black;
+	background: #d1d1d1;
+	padding: 30px 16px;
+	margin: 10px;
+	position: relative;
+	
+}
+.clearfix{
+	clear: left; /*to clear float*/
+}
+.section-title{
+	padding: 2px 10px;
+	margin-bottom: 10px;
+	font-size: 125%;/*25% more*/
+	text-align: center;
+	font-weight: bold;
+}
+
+#header-nav {
+  background-color: #d1d1d1;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+.navbar-brand h1 {
+  font-size: 1.5em;
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+  color: #e1e1e1;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
